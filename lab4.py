@@ -11,3 +11,15 @@ print("Кількість слів в тексті:", wordCount)
 # Використана функція lower() для того, щоб увесь текст був у малому регістрі
 lowRegText = text.lower()
 print("Текст у малому регістрі: \n", lowRegText)
+
+# Використана функція reversed() для тексту у зворотньому порядку
+reversed_text = ''.join(reversed(text))
+print("Текст в зворотньому порядку; \n", reversed_text)
+
+# Використана функція upper() для тексту в великому регістрі
+upRegText= text.upper()
+print("Текст у великому регістрі: \n", upRegText)
+
+# Використана функція join() для об'єднання символів рядка дефісом
+joined_text = '-'.join(text)
+print("Текст з об'єднаними символами рядків: \n", joined_text)
